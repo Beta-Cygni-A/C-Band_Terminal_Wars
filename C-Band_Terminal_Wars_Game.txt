@@ -1,0 +1,19 @@
+C-Band: Terminal Wars is a game inspired by Contra NES and Contra 3, and will be made using my library.
+it will have 9 levels and maybe one bonus
+it will have a pattern of three levels. 1 is like intro to new level, secound is getting harder, same scen. Third is short but HARD with alot of things from pervious levels.
+levels are 9 chars tall, 15 chars wide, 212 chars long
+character speed 2 chars per secound
+
+Level 1: Country
+Level 2: Forest
+Level 3: Swamp
+
+Level 4: Desert Chase
+Level 5: Camp
+Level 6: Dogfight
+
+Level 7: Mountain
+Level 8: Jungle
+Level 9: Cave
+
+Bonus Level: Escape cave and rescue team will join you, run and fight all the way back to country.
