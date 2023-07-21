@@ -1,0 +1,1 @@
+g++ -o nameofexe thismain.cpp gridsystem/gridsystem.cpp load_level/load_level.cpp -pedantic-errors -Wall -Weffc++ -Wextra -Wsign-conversion -Werror -std=c++20
