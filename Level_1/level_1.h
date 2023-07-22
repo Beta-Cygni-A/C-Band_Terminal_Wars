@@ -5,10 +5,13 @@
 
 namespace level_1
 {
+    int run();
+
     bool level_active {false};
 
     std::string_view level_art_file {"level_1_art.txt"};
     int level_length {0};
+    int level_width {0};
 
     int player1_default_animation {1};
     int player2_default_animation {1};

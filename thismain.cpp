@@ -3,32 +3,21 @@
 #include <fstream>
 #include <string>
 #include <cstring>
-#include <array>
 #include <limits>
 #include <utility>
 #include <string_view>
 #include "gridsystem/gridsystem.h"
-//#include "level_1/level_1.h"
+#include "level_1/level_1.h"
 #include "load_level/load_level.h"
 
 //new name from Localverse: Contrascii: Terminal Warfare
 
 int main()
 {
-    //print_grid(grid, y_row, x_col);
-/*
-    //int current_level {1};
-    level_1::level_active = true;
-    level_1::level_length = 64;
+    int current_level {0};
 
-for(unsigned int a {0}; a < y_row; ++a) //loop through all y or rows
-	{
-		for(unsigned int b {0}; b < x_col; ++b)  // loop thorugh all x or collums
-		{
-			loadlevel( static_cast<int>(a), static_cast<int>(b), level_1::level_length, level_1::level_art_file);
-		}
-	}
-*/
+    level_1::run();
+
     grid[1][1] = '/';
     grid[2][1] = '\\';
 
@@ -52,7 +41,7 @@ for(unsigned int a {0}; a < y_row; ++a) //loop through all y or rows
     grid[2][6] = '/';
     print_grid(grid, y_row, x_col);
     std::string artfile {"arty.txt"};
-    loadlevel(3, 3, /*5,*/ artfile);
+    loadlevel(3, 3, artfile);
     print_grid(grid, y_row, x_col);
     return 0;
 }
